@@ -44,7 +44,9 @@ Step 2: Add file name into the .gitignore file
     --> Create a new branch
 (3) git checkout <branch_name> 
     --> Switch to another branch 
-(4) git branch -d <branch_name>
+(4) git merge <branch_name>
+    --> Merge the branch specified to the current branch you are on
+(5) git branch -d <branch_name>
     --> Remove a branch (Not recommended)
 
 
