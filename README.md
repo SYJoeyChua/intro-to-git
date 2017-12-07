@@ -55,9 +55,9 @@ Step 2: Obtain SSH keys from C9 account
 Step 3: Paste SSH keys in Github (Settings --> SSH and GPG keys --> New SSH key)
 Step 4: Link repository in c9 to the repository in GitHub
         --> git remote add origin <url>
-            --> Add a short name "origin"
+            --> Creates a new remote called origin located at https://github.com/SYJoeyChua/intro-to-git.git
         --> git remote -v 
-            --> Check that origin is added as a remote
+            --> Check whether the origin is added as a remote
         --> git push -u origin master
             --> Push the commits in the local branch named master to the remote named origin
             --> Local branch master is now on a remote branch also called Master on GitHu, and the remote is called origin
