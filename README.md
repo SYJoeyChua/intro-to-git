@@ -23,3 +23,14 @@ Step 3: Git commit
         
 ========== Adding same file types ==========
 Wildcard --> Asterisk (*.<fileextension>)
+
+
+========== Adding all files ==========
+git add -A --> Adds all files and folders from the directory that you're in
+
+========== Removing files from staging area ==========
+git reset HEAD <file>
+
+========== Ignoring files ==========
+Step 1: Create a file named ".gitignore"
+Step 2: Add file name into the .gitignore file
