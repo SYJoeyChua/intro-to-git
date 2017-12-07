@@ -37,6 +37,15 @@ Step 1: Create a file named ".gitignore"
 Step 2: Add file name into the .gitignore file
 
 ========== Branching ==========
-git branch --> List the branches we have
-git checkout -b <branch_name>
+(1) git branch 
+    --> List the branches we have
+    --> * shows which branch you are at
+(2) git checkout -b <branch_name>
+    --> Create a new branch
+(3) git checkout <branch_name> 
+    --> Switch to another branch 
+(4) git branch -d <branch_name>
+    --> Remove a branch (Not recommended)
+
+
 
