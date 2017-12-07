@@ -20,3 +20,6 @@ Step 3: Git commit
             --> -m is a flag
             --> present tense verb + short description
         --> Check using [git log]
+        
+========== Adding same file types ==========
+Wildcard --> Asterisk (*.<fileextension>)
