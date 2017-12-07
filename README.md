@@ -30,7 +30,13 @@ git add -A --> Adds all files and folders from the directory that you're in
 
 ========== Removing files from staging area ==========
 git reset HEAD <file>
+git rm --cached <file>
 
 ========== Ignoring files ==========
 Step 1: Create a file named ".gitignore"
 Step 2: Add file name into the .gitignore file
+
+========== Branching ==========
+git branch --> List the branches we have
+git checkout -b <branch_name>
+
